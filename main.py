@@ -10,10 +10,10 @@ unitate_oy = input("\nIntroduceti o unitate de masura pentru Oy: ")
 n = int(input("\nCate masuratori vrei sa introduci? "))
 x = []
 y = []
-print(f"\nIntrodu {n} valori pentru axa Ox: ")
+print(f"\nIntrodu {n} valori pentru axa Ox (separate prin Enter): ")
 for i in range(n):
 	x.append(float(input()))
-print(f"\nIntrodu {n} valori pentru axa Oy:")
+print(f"\nIntrodu {n} valori pentru axa Oy (separate prin Enter):")
 for i in range(n):
 	y.append(float(input()))
 
